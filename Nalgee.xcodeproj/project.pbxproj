@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CED00B02683623C00E18A09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CED00AF2683623C00E18A09 /* Assets.xcassets */; };
+		2CED00B32683623C00E18A09 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CED00B22683623C00E18A09 /* Preview Assets.xcassets */; };
+		2CED00BD2683631500E18A09 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CED00BA2683631500E18A09 /* ContentView.swift */; };
+		2CED00BE2683631500E18A09 /* Microphone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CED00BB2683631500E18A09 /* Microphone.swift */; };
+		2CED00BF2683631500E18A09 /* NalgeeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CED00BC2683631500E18A09 /* NalgeeApp.swift */; };
+		2CED00D52683639000E18A09 /* NoFlashlightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CED00D02683639000E18A09 /* NoFlashlightView.swift */; };
+		2CED00D62683639000E18A09 /* NoMicrophoneAccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CED00D12683639000E18A09 /* NoMicrophoneAccessView.swift */; };
+		2CED00D72683639000E18A09 /* PercentageControlBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CED00D22683639000E18A09 /* PercentageControlBox.swift */; };
+		2CED00D82683639000E18A09 /* ControlGroupBoxStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CED00D32683639000E18A09 /* ControlGroupBoxStyle.swift */; };
+		2CED00D92683639000E18A09 /* LevelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CED00D42683639000E18A09 /* LevelView.swift */; };
+		2CED00DD268363B200E18A09 /* TorchView.Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CED00DA268363B200E18A09 /* TorchView.Model.swift */; };
+		2CED00DE268363B200E18A09 /* TorchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CED00DB268363B200E18A09 /* TorchView.swift */; };
+		2CED00DF268363B200E18A09 /* Torch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CED00DC268363B200E18A09 /* Torch.swift */; };
+		2CED00E6268363CF00E18A09 /* SpotView.Mode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CED00E2268363CF00E18A09 /* SpotView.Mode.swift */; };
+		2CED00E7268363CF00E18A09 /* Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CED00E3268363CF00E18A09 /* Screen.swift */; };
+		2CED00E8268363CF00E18A09 /* SpotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CED00E4268363CF00E18A09 /* SpotView.swift */; };
+		2CED00E9268363CF00E18A09 /* SpotView.Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CED00E5268363CF00E18A09 /* SpotView.Model.swift */; };
+		2CED00EC2683641000E18A09 /* SpotView.PulseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CED00EA2683641000E18A09 /* SpotView.PulseView.swift */; };
+		2CED00ED2683641000E18A09 /* SpotView.PulseView.Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CED00EB2683641000E18A09 /* SpotView.PulseView.Model.swift */; };
+		2CED00F02683641E00E18A09 /* SpotView.AudioView.Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CED00EE2683641E00E18A09 /* SpotView.AudioView.Model.swift */; };
+		2CED00F12683641E00E18A09 /* SpotView.AudioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CED00EF2683641E00E18A09 /* SpotView.AudioView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2CED00A82683623C00E18A09 /* Nalgee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nalgee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CED00AF2683623C00E18A09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2CED00B22683623C00E18A09 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2CED00B42683623C00E18A09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CED00BA2683631500E18A09 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2CED00BB2683631500E18A09 /* Microphone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Microphone.swift; sourceTree = "<group>"; };
+		2CED00BC2683631500E18A09 /* NalgeeApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NalgeeApp.swift; sourceTree = "<group>"; };
+		2CED00D02683639000E18A09 /* NoFlashlightView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoFlashlightView.swift; sourceTree = "<group>"; };
+		2CED00D12683639000E18A09 /* NoMicrophoneAccessView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoMicrophoneAccessView.swift; sourceTree = "<group>"; };
+		2CED00D22683639000E18A09 /* PercentageControlBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PercentageControlBox.swift; sourceTree = "<group>"; };
+		2CED00D32683639000E18A09 /* ControlGroupBoxStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlGroupBoxStyle.swift; sourceTree = "<group>"; };
+		2CED00D42683639000E18A09 /* LevelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelView.swift; sourceTree = "<group>"; };
+		2CED00DA268363B200E18A09 /* TorchView.Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TorchView.Model.swift; sourceTree = "<group>"; };
+		2CED00DB268363B200E18A09 /* TorchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TorchView.swift; sourceTree = "<group>"; };
+		2CED00DC268363B200E18A09 /* Torch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Torch.swift; sourceTree = "<group>"; };
+		2CED00E2268363CF00E18A09 /* SpotView.Mode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpotView.Mode.swift; sourceTree = "<group>"; };
+		2CED00E3268363CF00E18A09 /* Screen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Screen.swift; sourceTree = "<group>"; };
+		2CED00E4268363CF00E18A09 /* SpotView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpotView.swift; sourceTree = "<group>"; };
+		2CED00E5268363CF00E18A09 /* SpotView.Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpotView.Model.swift; sourceTree = "<group>"; };
+		2CED00EA2683641000E18A09 /* SpotView.PulseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpotView.PulseView.swift; sourceTree = "<group>"; };
+		2CED00EB2683641000E18A09 /* SpotView.PulseView.Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpotView.PulseView.Model.swift; sourceTree = "<group>"; };
+		2CED00EE2683641E00E18A09 /* SpotView.AudioView.Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpotView.AudioView.Model.swift; sourceTree = "<group>"; };
+		2CED00EF2683641E00E18A09 /* SpotView.AudioView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpotView.AudioView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CED00A52683623C00E18A09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CED009F2683623C00E18A09 = {
+			isa = PBXGroup;
+			children = (
+				2CED00AA2683623C00E18A09 /* Nalgee */,
+				2CED00A92683623C00E18A09 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2CED00A92683623C00E18A09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CED00A82683623C00E18A09 /* Nalgee.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CED00AA2683623C00E18A09 /* Nalgee */ = {
+			isa = PBXGroup;
+			children = (
+				2CED00C52683636A00E18A09 /* Spot Tab */,
+				2CED00C42683636500E18A09 /* Torch Tab */,
+				2CED00C32683635F00E18A09 /* UI */,
+				2CED00BA2683631500E18A09 /* ContentView.swift */,
+				2CED00BC2683631500E18A09 /* NalgeeApp.swift */,
+				2CED00BB2683631500E18A09 /* Microphone.swift */,
+				2CED00AF2683623C00E18A09 /* Assets.xcassets */,
+				2CED00B42683623C00E18A09 /* Info.plist */,
+				2CED00B12683623C00E18A09 /* Preview Content */,
+			);
+			path = Nalgee;
+			sourceTree = "<group>";
+		};
+		2CED00B12683623C00E18A09 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2CED00B22683623C00E18A09 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2CED00C32683635F00E18A09 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				2CED00D42683639000E18A09 /* LevelView.swift */,
+				2CED00D32683639000E18A09 /* ControlGroupBoxStyle.swift */,
+				2CED00D22683639000E18A09 /* PercentageControlBox.swift */,
+				2CED00D02683639000E18A09 /* NoFlashlightView.swift */,
+				2CED00D12683639000E18A09 /* NoMicrophoneAccessView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		2CED00C42683636500E18A09 /* Torch Tab */ = {
+			isa = PBXGroup;
+			children = (
+				2CED00DB268363B200E18A09 /* TorchView.swift */,
+				2CED00DA268363B200E18A09 /* TorchView.Model.swift */,
+				2CED00DC268363B200E18A09 /* Torch.swift */,
+			);
+			path = "Torch Tab";
+			sourceTree = "<group>";
+		};
+		2CED00C52683636A00E18A09 /* Spot Tab */ = {
+			isa = PBXGroup;
+			children = (
+				2CED00E4268363CF00E18A09 /* SpotView.swift */,
+				2CED00E2268363CF00E18A09 /* SpotView.Mode.swift */,
+				2CED00E5268363CF00E18A09 /* SpotView.Model.swift */,
+				2CED00E3268363CF00E18A09 /* Screen.swift */,
+				2CED00E1268363BF00E18A09 /* Pulse Mode */,
+				2CED00E0268363B900E18A09 /* Audio Mode */,
+			);
+			path = "Spot Tab";
+			sourceTree = "<group>";
+		};
+		2CED00E0268363B900E18A09 /* Audio Mode */ = {
+			isa = PBXGroup;
+			children = (
+				2CED00EF2683641E00E18A09 /* SpotView.AudioView.swift */,
+				2CED00EE2683641E00E18A09 /* SpotView.AudioView.Model.swift */,
+			);
+			path = "Audio Mode";
+			sourceTree = "<group>";
+		};
+		2CED00E1268363BF00E18A09 /* Pulse Mode */ = {
+			isa = PBXGroup;
+			children = (
+				2CED00EA2683641000E18A09 /* SpotView.PulseView.swift */,
+				2CED00EB2683641000E18A09 /* SpotView.PulseView.Model.swift */,
+			);
+			path = "Pulse Mode";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2CED00A72683623C00E18A09 /* Nalgee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CED00B72683623C00E18A09 /* Build configuration list for PBXNativeTarget "Nalgee" */;
+			buildPhases = (
+				2CED00A42683623C00E18A09 /* Sources */,
+				2CED00A52683623C00E18A09 /* Frameworks */,
+				2CED00A62683623C00E18A09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nalgee;
+			productName = Nalgee;
+			productReference = 2CED00A82683623C00E18A09 /* Nalgee.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2CED00A02683623C00E18A09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					2CED00A72683623C00E18A09 = {
+						CreatedOnToolsVersion = 12.5;
+						LastSwiftMigration = 1250;
+					};
+				};
+			};
+			buildConfigurationList = 2CED00A32683623C00E18A09 /* Build configuration list for PBXProject "Nalgee" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2CED009F2683623C00E18A09;
+			productRefGroup = 2CED00A92683623C00E18A09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CED00A72683623C00E18A09 /* Nalgee */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CED00A62683623C00E18A09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CED00B32683623C00E18A09 /* Preview Assets.xcassets in Resources */,
+				2CED00B02683623C00E18A09 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CED00A42683623C00E18A09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CED00BD2683631500E18A09 /* ContentView.swift in Sources */,
+				2CED00D82683639000E18A09 /* ControlGroupBoxStyle.swift in Sources */,
+				2CED00DF268363B200E18A09 /* Torch.swift in Sources */,
+				2CED00ED2683641000E18A09 /* SpotView.PulseView.Model.swift in Sources */,
+				2CED00E7268363CF00E18A09 /* Screen.swift in Sources */,
+				2CED00E8268363CF00E18A09 /* SpotView.swift in Sources */,
+				2CED00D62683639000E18A09 /* NoMicrophoneAccessView.swift in Sources */,
+				2CED00EC2683641000E18A09 /* SpotView.PulseView.swift in Sources */,
+				2CED00D72683639000E18A09 /* PercentageControlBox.swift in Sources */,
+				2CED00D92683639000E18A09 /* LevelView.swift in Sources */,
+				2CED00F02683641E00E18A09 /* SpotView.AudioView.Model.swift in Sources */,
+				2CED00D52683639000E18A09 /* NoFlashlightView.swift in Sources */,
+				2CED00BF2683631500E18A09 /* NalgeeApp.swift in Sources */,
+				2CED00F12683641E00E18A09 /* SpotView.AudioView.swift in Sources */,
+				2CED00BE2683631500E18A09 /* Microphone.swift in Sources */,
+				2CED00DD268363B200E18A09 /* TorchView.Model.swift in Sources */,
+				2CED00E9268363CF00E18A09 /* SpotView.Model.swift in Sources */,
+				2CED00E6268363CF00E18A09 /* SpotView.Mode.swift in Sources */,
+				2CED00DE268363B200E18A09 /* TorchView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2CED00B52683623C00E18A09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2CED00B62683623C00E18A09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2CED00B82683623C00E18A09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Nalgee/Preview Content\"";
+				DEVELOPMENT_TEAM = ACS45765XH;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Nalgee/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcusrossel.Nalgee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2CED00B92683623C00E18A09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Nalgee/Preview Content\"";
+				DEVELOPMENT_TEAM = ACS45765XH;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Nalgee/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcusrossel.Nalgee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CED00A32683623C00E18A09 /* Build configuration list for PBXProject "Nalgee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CED00B52683623C00E18A09 /* Debug */,
+				2CED00B62683623C00E18A09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CED00B72683623C00E18A09 /* Build configuration list for PBXNativeTarget "Nalgee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CED00B82683623C00E18A09 /* Debug */,
+				2CED00B92683623C00E18A09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2CED00A02683623C00E18A09 /* Project object */;
+}
