@@ -41,7 +41,7 @@ extension SpotView.PulseView {
         
         @Published var opacity: Double = 1
         
-        @Published var isActive = true {
+        @Published var isActive = false {
             didSet {
                 if isActive {
                     if timerHandle == nil && !opacityCycle.value.isZero {

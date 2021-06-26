@@ -12,7 +12,7 @@ import AVFoundation
 // https://medium.com/swlh/swiftui-create-a-sound-visualizer-cadee0b6ad37
 final class Microphone: ObservableObject {
     
-    private var audioRecorder: AVAudioRecorder!
+    private var audioRecorder: AVAudioRecorder?
     private var timer: Timer?
     
     @Published private(set) var isEnabled = false
@@ -27,10 +27,11 @@ final class Microphone: ObservableObject {
         isEnabled = AVAudioSession.sharedInstance().recordPermission == .granted
     }
     
-    @Published var isActive = true {
+    @Published var isActive = false {
         willSet {
             switch newValue {
             case true:
+                if audioRecorder == nil { initialize() }
                 reset()
                 startMonitoring()
             case false:
@@ -82,14 +83,16 @@ final class Microphone: ObservableObject {
     }
     
     private func startMonitoring() {
-        audioRecorder.isMeteringEnabled = true
-        audioRecorder.record()
+        guard let recorder = audioRecorder else { return }
+        
+        recorder.isMeteringEnabled = true
+        recorder.record()
         
         timer = Timer.scheduledTimer(withTimeInterval: 0.01, repeats: true) { [weak self] timer in
             guard let self = self else { return }
             
-            self.audioRecorder.updateMeters()
-            let dB = self.audioRecorder.averagePower(forChannel: 0)
+            recorder.updateMeters()
+            let dB = recorder.averagePower(forChannel: 0)
             
             self.updateLevel(dB: dB)
             
@@ -99,10 +102,10 @@ final class Microphone: ObservableObject {
     
     private func stopMonitoring() {
         timer?.invalidate()
-        audioRecorder.stop()
+        audioRecorder?.stop()
     }
     
-    init() {
+    private func initialize() {
         let audioSession = AVAudioSession.sharedInstance()
 
         if audioSession.recordPermission != .granted {

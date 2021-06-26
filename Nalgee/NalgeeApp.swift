@@ -11,8 +11,10 @@ import SwiftUI
 struct NalgeeApp: App {
     
     @Environment(\.scenePhase) var scenePhase
-    @StateObject var torchModel = TorchView.Model()
-    @StateObject var spotModel = SpotView.Model()
+    @AppStorage("showDamageWarning") var showDamageWarning = false
+    
+    private let torchModel = TorchView.Model()
+    private let spotModel = SpotView.Model()
     
     init() {
         UIApplication.shared.isIdleTimerDisabled = true
@@ -22,7 +24,11 @@ struct NalgeeApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView(torchModel: torchModel, spotModel: spotModel)
+            if showDamageWarning {
+                DamageWarningView(isPresented: $showDamageWarning)
+            } else {
+                ContentView(torchModel: torchModel, spotModel: spotModel)
+            }
         }
         .onChange(of: scenePhase) { phase in
             guard case .active = phase else { return }

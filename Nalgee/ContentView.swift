@@ -57,6 +57,11 @@ struct ContentView: View {
                 torchModel.isActive = false
                 spotModel.isActive = true
             }
+        }.onAppear {
+            switch selectedTab {
+            case .spot:  spotModel.isActive = true
+            case .torch: torchModel.isActive = true
+            }
         }
     }
     

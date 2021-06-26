@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C04A41C2685C88800D8A6CA /* BigLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C04A41B2685C88800D8A6CA /* BigLabel.swift */; };
 		2CED00B02683623C00E18A09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CED00AF2683623C00E18A09 /* Assets.xcassets */; };
 		2CED00B32683623C00E18A09 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CED00B22683623C00E18A09 /* Preview Assets.xcassets */; };
 		2CED00BD2683631500E18A09 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CED00BA2683631500E18A09 /* ContentView.swift */; };
 		2CED00BE2683631500E18A09 /* Microphone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CED00BB2683631500E18A09 /* Microphone.swift */; };
 		2CED00BF2683631500E18A09 /* NalgeeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CED00BC2683631500E18A09 /* NalgeeApp.swift */; };
-		2CED00D52683639000E18A09 /* NoFlashlightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CED00D02683639000E18A09 /* NoFlashlightView.swift */; };
-		2CED00D62683639000E18A09 /* NoMicrophoneAccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CED00D12683639000E18A09 /* NoMicrophoneAccessView.swift */; };
+		2CED00D62683639000E18A09 /* Warnings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CED00D12683639000E18A09 /* Warnings.swift */; };
 		2CED00D72683639000E18A09 /* PercentageControlBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CED00D22683639000E18A09 /* PercentageControlBox.swift */; };
 		2CED00D82683639000E18A09 /* ControlGroupBoxStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CED00D32683639000E18A09 /* ControlGroupBoxStyle.swift */; };
 		2CED00D92683639000E18A09 /* LevelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CED00D42683639000E18A09 /* LevelView.swift */; };
@@ -31,6 +31,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C04A41B2685C88800D8A6CA /* BigLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigLabel.swift; sourceTree = "<group>"; };
 		2CED00A82683623C00E18A09 /* Nalgee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nalgee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CED00AF2683623C00E18A09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2CED00B22683623C00E18A09 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -38,8 +39,7 @@
 		2CED00BA2683631500E18A09 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2CED00BB2683631500E18A09 /* Microphone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Microphone.swift; sourceTree = "<group>"; };
 		2CED00BC2683631500E18A09 /* NalgeeApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NalgeeApp.swift; sourceTree = "<group>"; };
-		2CED00D02683639000E18A09 /* NoFlashlightView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoFlashlightView.swift; sourceTree = "<group>"; };
-		2CED00D12683639000E18A09 /* NoMicrophoneAccessView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoMicrophoneAccessView.swift; sourceTree = "<group>"; };
+		2CED00D12683639000E18A09 /* Warnings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Warnings.swift; sourceTree = "<group>"; };
 		2CED00D22683639000E18A09 /* PercentageControlBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PercentageControlBox.swift; sourceTree = "<group>"; };
 		2CED00D32683639000E18A09 /* ControlGroupBoxStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlGroupBoxStyle.swift; sourceTree = "<group>"; };
 		2CED00D42683639000E18A09 /* LevelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelView.swift; sourceTree = "<group>"; };
@@ -113,8 +113,8 @@
 				2CED00D42683639000E18A09 /* LevelView.swift */,
 				2CED00D32683639000E18A09 /* ControlGroupBoxStyle.swift */,
 				2CED00D22683639000E18A09 /* PercentageControlBox.swift */,
-				2CED00D02683639000E18A09 /* NoFlashlightView.swift */,
-				2CED00D12683639000E18A09 /* NoMicrophoneAccessView.swift */,
+				2C04A41B2685C88800D8A6CA /* BigLabel.swift */,
+				2CED00D12683639000E18A09 /* Warnings.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -233,15 +233,15 @@
 				2CED00BD2683631500E18A09 /* ContentView.swift in Sources */,
 				2CED00D82683639000E18A09 /* ControlGroupBoxStyle.swift in Sources */,
 				2CED00DF268363B200E18A09 /* Torch.swift in Sources */,
+				2C04A41C2685C88800D8A6CA /* BigLabel.swift in Sources */,
 				2CED00ED2683641000E18A09 /* SpotView.PulseView.Model.swift in Sources */,
 				2CED00E7268363CF00E18A09 /* Screen.swift in Sources */,
 				2CED00E8268363CF00E18A09 /* SpotView.swift in Sources */,
-				2CED00D62683639000E18A09 /* NoMicrophoneAccessView.swift in Sources */,
+				2CED00D62683639000E18A09 /* Warnings.swift in Sources */,
 				2CED00EC2683641000E18A09 /* SpotView.PulseView.swift in Sources */,
 				2CED00D72683639000E18A09 /* PercentageControlBox.swift in Sources */,
 				2CED00D92683639000E18A09 /* LevelView.swift in Sources */,
 				2CED00F02683641E00E18A09 /* SpotView.AudioView.Model.swift in Sources */,
-				2CED00D52683639000E18A09 /* NoFlashlightView.swift in Sources */,
 				2CED00BF2683631500E18A09 /* NalgeeApp.swift in Sources */,
 				2CED00F12683641E00E18A09 /* SpotView.AudioView.swift in Sources */,
 				2CED00BE2683631500E18A09 /* Microphone.swift in Sources */,
@@ -378,7 +378,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_ASSET_PATHS = "\"Nalgee/Preview Content\"";
 				DEVELOPMENT_TEAM = ACS45765XH;
 				ENABLE_PREVIEWS = YES;
@@ -388,7 +388,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.1;
+				MARKETING_VERSION = 0.1.4;
 				PRODUCT_BUNDLE_IDENTIFIER = com.marcusrossel.Nalgee;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -404,7 +404,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_ASSET_PATHS = "\"Nalgee/Preview Content\"";
 				DEVELOPMENT_TEAM = ACS45765XH;
 				ENABLE_PREVIEWS = YES;
@@ -414,7 +414,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.1;
+				MARKETING_VERSION = 0.1.4;
 				PRODUCT_BUNDLE_IDENTIFIER = com.marcusrossel.Nalgee;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
