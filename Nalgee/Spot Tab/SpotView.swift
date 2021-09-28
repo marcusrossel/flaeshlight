@@ -28,15 +28,33 @@ struct SpotView: View {
             
             Spacer()
             
-            Picker(
-                selection: $model.mode,
-                label: Image(systemName: model.mode.symbol).font(.system(size: 22, design: .rounded).weight(.bold))
-            ) {
+            /*
+            Menu picker style seems to be buggy, as it ignores the custom label.
+            
+            Picker(selection: $model.mode) {
                 ForEach(Mode.allCases) { mode in
                     Label(mode.rawValue, systemImage: mode.symbol)
                 }
+            } label: {
+                Image(systemName: model.mode.symbol).font(.system(size: 22, design: .rounded).weight(.bold))
             }
-            .pickerStyle(MenuPickerStyle())
+            .pickerStyle(.menu)
+             
+            This is a workaround:
+            */
+            
+            Menu {
+                ForEach(Mode.allCases) { mode in
+                    Button(action: { model.mode = mode }) {
+                        Label(mode.rawValue, systemImage: mode.symbol)
+                    }
+                }
+            } label: {
+                Image(systemName: model.mode.symbol).font(.system(size: 22, design: .rounded).weight(.bold))
+            }
+
+            
+            
         }
         .padding([.top, .leading, .trailing])
     }

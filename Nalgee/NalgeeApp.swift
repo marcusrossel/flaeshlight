@@ -11,7 +11,6 @@ import SwiftUI
 struct NalgeeApp: App {
     
     @Environment(\.scenePhase) var scenePhase
-    @AppStorage("showDamageWarning") var showDamageWarning = false
     
     private let torchModel = TorchView.Model()
     private let spotModel = SpotView.Model()
@@ -23,12 +22,8 @@ struct NalgeeApp: App {
     }
     
     var body: some Scene {
-        WindowGroup {
-            if showDamageWarning {
-                DamageWarningView(isPresented: $showDamageWarning)
-            } else {
-                ContentView(torchModel: torchModel, spotModel: spotModel)
-            }
+        WindowGroup {        
+            ContentView(torchModel: torchModel, spotModel: spotModel)
         }
         .onChange(of: scenePhase) { phase in
             guard case .active = phase else { return }

@@ -38,7 +38,7 @@ struct ContentView: View {
                     }
                     .padding(.bottom, 32)
                 }
-                .tabViewStyle(PageTabViewStyle(indexDisplayMode: showSelectedTabUI ? .automatic : .never))
+                .tabViewStyle(.page(indexDisplayMode: showSelectedTabUI ? .automatic : .never))
                 .disabled(!showSelectedTabUI)
                 
                 if showSelectedTabUI && selectedTabIsEnabled {

@@ -18,8 +18,8 @@ enum Screen {
         case /* iPhone 6s */         "iPhone8,1":                return 326
         case /* iPhone 6s Plus */    "iPhone8,2":                return 401
         case /* iPhone SE 1 */       "iPhone8,4":                return 326
-        case /* iPhone 7 */          "iPhone9,1", "iPhone9,3":   return 326
-        case /* iPhone 7 Plus */     "iPhone9,2", "iPhone9,4":   return 401
+        case /* iPhone 7 */          "iPhone9,1",  "iPhone9,3":  return 326
+        case /* iPhone 7 Plus */     "iPhone9,2",  "iPhone9,4":  return 401
         case /* iPhone 8 */          "iPhone10,1", "iPhone10,4": return 326
         case /* iPhone 8 Plus */     "iPhone10,2", "iPhone10,5": return 401
         case /* iPhone X */          "iPhone10,3", "iPhone10,6": return 458
@@ -34,6 +34,10 @@ enum Screen {
         case /* iPhone 12 */         "iPhone13,2":               return 460
         case /* iPhone 12 Pro */     "iPhone13,3":               return 460
         case /* iPhone 12 Pro Max */ "iPhone13,4":               return 458
+        case /* iPhone 13 Pro */     "iPhone14,2":               return 460
+        case /* iPhone 13 Pro Max */ "iPhone14,3":               return 458
+        case /* iPhone 13 Mini */    "iPhone14,4":               return 476
+        case /* iPhone 13 */         "iPhone14,5":               return 460
         default:                                                 return nil
         }
         #endif

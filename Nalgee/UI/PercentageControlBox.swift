@@ -27,6 +27,6 @@ struct PercentageControlBox<Value: BinaryFloatingPoint>: View where Value.Stride
                 Slider(value: $value, in: 0...1)
             }
         }
-        .groupBoxStyle(ControlGroupBoxStyle())
+        .groupBoxStyle(.control)
     }    
 }

@@ -47,7 +47,7 @@ extension SpotView {
                         Slider(value: $model.opacityCycle.value, in: 0...20)
                     }
                 }
-                .groupBoxStyle(ControlGroupBoxStyle())
+                .groupBoxStyle(.control)
             }
             .padding()
         }

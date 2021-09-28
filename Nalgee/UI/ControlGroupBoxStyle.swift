@@ -24,3 +24,8 @@ struct ControlGroupBoxStyle: GroupBoxStyle {
     }
 }
 
+extension GroupBoxStyle where Self == ControlGroupBoxStyle {
+    
+    static var control: ControlGroupBoxStyle { ControlGroupBoxStyle() }
+}
+
